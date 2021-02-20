@@ -10,6 +10,12 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* Header */
 
 .top-header {
@@ -142,26 +148,21 @@ body {
   font-weight: normal;
 }
 
+.testo p {
+  margin-top: 50px;
+}
+
 #btn-orange {
-  background-color: orangered;
   text-align: center;
-  height: 80px;
-  width: 195px;
+  color: white;
   border-style: solid;
   border-color: orangered;
   border-width: 1px;
-  border-radius: 5px;
+  background-color: orangered;
   text-align: center;
   padding: 25px;
-}
-
-#btn-orange a {
+  border-radius: 5px;
   text-decoration: none;
-  color: white;
-}
-
-.testo p {
-  margin-top: 50px;
 }
 
 .riga-azzurra {
@@ -169,4 +170,105 @@ body {
   border-top: 3px solid;
   border-bottom: 3px solid;
   background-color: #82e0d5;
+}
+
+/* Sezione centrale */
+
+.center-section {
+  height: 1000px;
+  background-color: #e6e6e6;
+}
+
+.illustration {
+  width: 920px;
+  height: 320px;
+  position: relative;
+  top: 40px;
+  left: 450px;
+  text-align: center;
+}
+
+.illustration img {
+  width: 25%;
+}
+
+.illustration p {
+  line-height: 30px;
+}
+
+.freecrm {
+  width: 1200px;
+  height: 370px;
+  background-color: #fff;
+  position: relative;
+  top: 80px;
+  left: 320px;
+  box-shadow: 1px 1px 1px 1px #b9b8b8;
+  border-radius: 5px;
+  padding-top: 40px;
+}
+
+.freecrm img {
+  width: 15%;
+  position: relative;
+  top: 40px;
+  left: 100px;
+}
+
+#crm-button {
+  text-align: center;
+  color: white;
+  border-style: solid;
+  border-color: orangered;
+  border-width: 1px;
+  background-color: orangered;
+  text-align: center;
+  padding: 20px 44px;
+  border-radius: 5px;
+  text-decoration: none;
+  position: relative;
+  top: 100px;
+  right: 85px;
+}
+
+.testo-crm {
+  width: 750px;
+  height: 280px;
+  position: relative;
+  bottom: 100px;
+  left: 400px;
+}
+
+.testo-crm p {
+  line-height: 30px;
+  padding-bottom: 30px;
+  padding-top: 35px;
+}
+
+.testo-crm h3 {
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+.linea {
+  width: 400px;
+  height: 10px;
+  position: relative;
+  bottom: 50px;
+  left: 300px;
+  border-bottom: 2px solid black;
+}
+
+.cerchio {
+  color: orangered;
+  padding-left: 15px;
+}
+.cerchio1 {
+  color: orangered;
+  padding-left: 0;
+}
+
+.testo-crm ul li {
+  list-style: none;
+  display: inline-block;
+  font-weight: bold;
 }
