@@ -1,1 +1,172 @@
+/* General */
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Header */
+
+.top-header {
+  height: 100px;
+  background-color: #e6e6e6;
+}
+
+.mondo {
+  font-size: 20px;
+  position: relative;
+  top: 35px;
+  left: 250px;
+  padding-right: 10px;
+}
+
+#english {
+  padding-left: 10px;
+  font-weight: 400;
+}
+
+.text {
+  padding-left: 20px;
+  font-weight: 400;
+}
+
+.freccia {
+  font-size: 20px;
+  position: relative;
+  top: 35px;
+  left: 250px;
+}
+
+.lente {
+  font-size: 20px;
+  position: relative;
+  top: 35px;
+  left: 1050px;
+  color: #3bb9cc;
+}
+
+#login {
+  text-align: center;
+  height: 36px;
+  width: 70px;
+  color: orangered;
+  border-style: solid;
+  border-color: orangered;
+  border-width: 1px;
+  background-color: white;
+  text-align: center;
+  padding: 7px;
+  border-radius: 5px;
+  position: relative;
+  top: 8px;
+  left: 1350px;
+}
+
+#hubspot {
+  background-color: orangered;
+  text-align: center;
+  height: 36px;
+  width: 145px;
+  color: white;
+  border-style: solid;
+  border-color: orangered;
+  border-width: 1px;
+  text-align: center;
+  padding: 7px;
+  border-radius: 5px;
+  position: relative;
+  bottom: 27px;
+  left: 1450px;
+}
+
+.top-header ul li a {
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 30px;
+  padding: 15px;
+}
+
+.bottom-header {
+  height: 100px;
+}
+
+.bottom-header img {
+  position: relative;
+  top: 35px;
+  left: 250px;
+}
+
+.bottom-header ul li {
+  position: relative;
+  left: 940px;
+  padding: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+/* Main */
+
+/* Jumbotron */
+
+.jumbotron {
+  height: 650px;
+  background-image: url("../img-hubspot/jumbotron.png");
+  background-color: #fff2ee;
+  background-size: 1600px;
+  background-position: 320px -35px;
+  background-repeat: no-repeat;
+}
+
+.testo {
+  width: 800px;
+  position: relative;
+  top: 45px;
+  left: 250px;
+}
+
+.testo h1 {
+  font-size: 70px;
+  padding-bottom: 25px;
+}
+
+.testo h3 {
+  line-height: 30px;
+  padding-bottom: 50px;
+  font-weight: normal;
+}
+
+#btn-orange {
+  background-color: orangered;
+  text-align: center;
+  height: 80px;
+  width: 195px;
+  border-style: solid;
+  border-color: orangered;
+  border-width: 1px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 25px;
+}
+
+#btn-orange a {
+  text-decoration: none;
+  color: white;
+}
+
+.testo p {
+  margin-top: 50px;
+}
+
+.riga-azzurra {
+  height: 80px;
+  border-top: 3px solid;
+  border-bottom: 3px solid;
+  background-color: #82e0d5;
+}
