@@ -175,7 +175,7 @@ body {
 /* Sezione centrale */
 
 .center-section {
-  height: 1000px;
+  height: 1700px;
   background-color: #e6e6e6;
 }
 
@@ -271,4 +271,101 @@ body {
   list-style: none;
   display: inline-block;
   font-weight: bold;
+}
+
+/* Tre div verticali */
+
+.rett-verticale {
+  width: 367px;
+  height: 770px;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 1px 1px 1px 1px #b9b8b8;
+  border-radius: 5px;
+  padding-top: 40px;
+}
+
+.rett-verticale .linea {
+  position: absolute;
+  bottom: 350px;
+  left: 35px;
+  width: 300px;
+}
+
+.rett-verticale h3 {
+  margin-top: 110px;
+  padding-bottom: 35px;
+}
+
+.marketing-hub {
+  position: absolute;
+  top: 1750px;
+  left: 320px;
+}
+
+.marketing-hub img {
+  width: 35%;
+}
+
+.rett-verticale h2 {
+  font-weight: bold;
+  margin-top: 30px;
+  padding-bottom: 40px;
+}
+
+.rett-verticale p {
+  line-height: 25px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.sales-hub {
+  position: absolute;
+  top: 1750px;
+  left: 736px;
+}
+
+.sales-hub img {
+  width: 43%;
+}
+
+.service-hub {
+  position: absolute;
+  top: 1750px;
+  left: 1155px;
+}
+
+.service-hub img {
+  width: 32%;
+}
+
+.rett-verticale ul li {
+  list-style: none;
+  float: left;
+  padding-left: 30px;
+}
+
+.rett-verticale .cerchio {
+  padding-right: 20px;
+}
+
+.btn-learnmore {
+  background-color: orangered;
+  border-radius: 5px;
+  color: white;
+  padding: 25px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.learn-more1 {
+  position: relative;
+  right: 80px;
+  top: 90px;
+}
+
+.learn-more2 {
+  position: relative;
+  top: 73px;
 }
