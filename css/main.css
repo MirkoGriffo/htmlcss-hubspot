@@ -596,3 +596,63 @@ body {
 .woman img {
   width: 100%;
 }
+
+/* Footer */
+
+footer {
+  height: 600px;
+  background-color: #2d3e50;
+}
+
+.container {
+  width: 71%;
+  height: 90%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 30px;
+}
+
+.link {
+  float: left;
+  height: 360px;
+  width: 255px;
+  margin-left: 110px;
+}
+
+.link a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.link a:hover {
+  color: #99ccff;
+}
+
+.link a:first-child {
+  padding-bottom: 50px;
+}
+
+.container div:first-child {
+  margin-left: 0;
+}
+
+#contatto {
+  text-align: center;
+  color: black;
+  border-style: solid;
+  border-color: whitesmoke;
+  border-width: 1px;
+  background-color: whitesmoke;
+  padding-top: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.icone a {
+  display: inline-block;
+  padding-right: 30px;
+  padding-top: 20px;
+}
