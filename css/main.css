@@ -10,12 +10,6 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 /* Header */
 
 .top-header {
@@ -23,37 +17,40 @@ body {
   background-color: #e6e6e6;
 }
 
-.mondo {
-  font-size: 20px;
+.top-header ul li {
+  display: inline-block;
   position: relative;
   top: 35px;
   left: 250px;
-  padding-right: 10px;
 }
 
-#english {
-  padding-left: 10px;
-  font-weight: 400;
+.top-header ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
 }
 
-.text {
-  padding-left: 20px;
-  font-weight: 400;
+.top-header ul li:nth-child(2) span {
+  padding: 0px 20px;
+}
+
+.top-header ul li:nth-child(3) {
+  margin-left: 800px;
+}
+
+.top-header ul li:last-child {
+  margin-left: 20px;
 }
 
 .freccia {
-  font-size: 20px;
-  position: relative;
-  top: 35px;
-  left: 250px;
+  margin-left: 7px;
 }
 
 .lente {
   font-size: 20px;
-  position: relative;
-  top: 35px;
-  left: 1050px;
   color: #3bb9cc;
+  padding-right: 30px;
 }
 
 #login {
@@ -68,9 +65,6 @@ body {
   text-align: center;
   padding: 7px;
   border-radius: 5px;
-  position: relative;
-  top: 8px;
-  left: 1350px;
 }
 
 #hubspot {
@@ -85,16 +79,10 @@ body {
   text-align: center;
   padding: 7px;
   border-radius: 5px;
-  position: relative;
-  bottom: 27px;
-  left: 1450px;
 }
 
-.top-header ul li a {
-  display: inline-block;
-  text-decoration: none;
-  margin-left: 30px;
-  padding: 15px;
+.top-header a:hover {
+  color: orangered;
 }
 
 .bottom-header {
@@ -115,6 +103,19 @@ body {
   text-decoration: none;
   color: black;
   font-size: 20px;
+}
+
+.bottom-header ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.bottom-header ul li a:hover {
+  color: orangered;
+}
+
+.bottom-header ul li i {
+  padding-left: 15px;
 }
 
 /* Main */
@@ -193,6 +194,7 @@ body {
 }
 
 .illustration p {
+  padding-top: 30px;
   line-height: 30px;
 }
 
@@ -600,7 +602,7 @@ body {
 /* Footer */
 
 footer {
-  height: 600px;
+  height: 650px;
   background-color: #2d3e50;
 }
 
@@ -627,7 +629,7 @@ footer {
   padding-bottom: 20px;
 }
 
-.link a:hover {
+.container a:hover {
   color: #99ccff;
 }
 
@@ -655,4 +657,49 @@ footer {
   display: inline-block;
   padding-right: 30px;
   padding-top: 20px;
+}
+
+.lingue {
+  height: 40px;
+  border-bottom: solid 1px white;
+  clear: both;
+  text-align: center;
+  position: relative;
+  top: 80px;
+}
+
+.lingue a {
+  text-decoration: none;
+  color: white;
+  padding-right: 50px;
+}
+
+.logo-footer {
+  height: 60px;
+  position: relative;
+  top: 110px;
+}
+
+.logo-footer img {
+  width: 7%;
+  padding-bottom: 30px;
+}
+
+.logo-footer p {
+  display: inline-block;
+  position: relative;
+  right: 100px;
+  color: white;
+}
+
+.logo-footer a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  top: 40px;
+  padding-left: 40px;
+}
+
+.logo-footer a {
+  float: right;
 }
